@@ -1,0 +1,53 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_secure_storage (3.3.1):
+    - Flutter
+  - flutter_vlc_player (3.0.3):
+    - Flutter
+    - MobileVLCKit (~> 3.3.14)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - MobileVLCKit (3.3.15)
+  - path_provider (0.0.1):
+    - Flutter
+  - sqflite (0.0.1):
+    - Flutter
+    - FMDB (~> 2.7.2)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_secure_storage (from `.symlinks/plugins/flutter_secure_storage/ios`)
+  - flutter_vlc_player (from `.symlinks/plugins/flutter_vlc_player/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - MobileVLCKit
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_secure_storage:
+    :path: ".symlinks/plugins/flutter_secure_storage/ios"
+  flutter_vlc_player:
+    :path: ".symlinks/plugins/flutter_vlc_player/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_secure_storage: 7953c38a04c3fdbb00571bcd87d8e3b5ceb9daec
+  flutter_vlc_player: 6feef962742884ff578602a6ce5dc0229e1cedff
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  MobileVLCKit: 9a04c9fa19e35c376ddf59425dd82e397d5899ad
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+  sqflite: 4001a31ff81d210346b500c55b17f4d6c7589dd0
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.9.3
